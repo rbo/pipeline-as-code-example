@@ -16,7 +16,7 @@ metadata:
     pipelinesascode.tekton.dev/task: "git-clone"
 
     # Use maven task from hub
-    pipelinesascode.tekton.dev/task-1: "[pre-commit]"
+    # pipelinesascode.tekton.dev/task-1: "[pre-commit]"
 
     # You can add more tasks in here to reuse, browse the one you like from here
     # https://hub.tekton.dev/
