@@ -80,7 +80,7 @@ spec:
               script: |
                 echo pre-commit run --color=never --all-files
                 date
-                sleep 32
+                for i in $(seq 1 10); do sleep 60; date; done;
                 date
 
 
