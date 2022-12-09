@@ -78,8 +78,10 @@ spec:
               image: quay.io/rbohne/pre-commit:latest
               workingDir: $(workspaces.source.path)
               script: |
-                exit 0
-                echo pre-commit run --all-files
+                pre-commit run --all-files
+                date
+                sleep 32
+
 
       - name: github-add-labels
         runAfter:
