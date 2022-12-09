@@ -78,7 +78,7 @@ spec:
               image: quay.io/rbohne/pre-commit:latest
               workingDir: $(workspaces.source.path)
               script: |
-                pre-commit run --all-files
+                echo pre-commit run --all-files
                 date
                 sleep 32
 
